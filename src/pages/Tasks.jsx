@@ -16,8 +16,7 @@ const Tasks = () => {
 
   return (
     <>
-      <AddTaskModal isOpen={isOpen} setIsOpen={setIsOpen} />
-
+      <AddTaskModal isOpen={isOpen} setIsOpen={setIsOpen} /> 
       <div className="h-screen grid grid-cols-12">
         <div className="col-span-9 px-10 pt-10">
           <div className="flex justify-between items-center">
