@@ -23,7 +23,7 @@ const PrivateRoute = ({ children }) => {
         dispatch(toggoleLoding(false))
       }
     })
-  },[])
+  },[dispatch])
 
   if (isLoading) {
     return <Loading />;
